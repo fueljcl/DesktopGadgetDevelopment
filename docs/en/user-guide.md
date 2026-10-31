@@ -17,6 +17,6 @@ For a PC without a working connection, use another PC to download the applicatio
 
 Report the error text, steps and app version on [Discord](https://discord.gg/9Pydmv4BKx), or use [email](mailto:desktopgadget.org@gmail.com) for private details. Do not send passwords or private keys. Diagnostic reports are not uploaded automatically.
 
-PC-to-PC connections and transfers are outside version 1.0.0. Public Marketplace and donation availability are announced separately on the official website.
+PC-to-PC connections and transfers are outside version 1.0.0. The free Marketplace is available. Open language-pack management, sign in with a free ID, then install one of the six language packs. Optional development support is accepted on the official donation page.
 
 [Terms](usage-en.md) · [Data handling](data-handling-en.md) · [Contents](../../README.md)

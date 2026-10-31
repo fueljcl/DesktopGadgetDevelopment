@@ -1,6 +1,6 @@
 # DesktopGadget 1.0.0 — Data handling
 
-Published October 31, 2026. This describes the application, official website and enquiries. Free Marketplace registration is still being prepared.
+Published October 31, 2026. This describes the application, official website and enquiries. Free Marketplace registration and language-pack distribution are available.
 
 ## Information stored on your PC
 
@@ -14,7 +14,7 @@ Application update checks retrieve official update information. Checking at star
 
 When you enable external information sources or services such as AI, requests and content selected for that function are sent to its configured destination. Some enabled functions fetch information periodically. Review the destination, content and costs. Services opened in a browser also operate under that service's and browser's practices.
 
-When free Marketplace services become available, they handle an ID, authentication public keys or password verification information, recovery verification information, sessions and records needed for submitting and obtaining works. These are used for authentication, entitlement checks, delivery, operation and abuse prevention. The Marketplace does not synchronise all of your local notes and agenda entries. Account deletion is available through the application. Deleting an account is distinct from handling published works, operational records and backups.
+The free Marketplace handles an ID, authentication public keys, recovery verification information, sessions and records needed for submitting and obtaining works. These are used for authentication, entitlement checks, delivery, operation and abuse prevention. The Marketplace does not synchronise all of your local notes and agenda entries. Account deletion is available through the application. Deleting an account is distinct from handling published works, operational records and backups.
 
 ## Diagnostics and enquiries
 
