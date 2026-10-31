@@ -1,0 +1,1 @@
+using System.Text.Json;using DesktopGadget.Product.Sdk;public static class HtmlRenderer {public static string Run(string input)=>JsonSerializer.Serialize(new PluginHtmlDocument(1,"html","assets/index.html",420,240,"HTML / JavaScript",input));}

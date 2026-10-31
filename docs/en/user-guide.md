@@ -1,0 +1,22 @@
+# Start and update
+
+For DesktopGadget Free 1.0.0, released on October 31, 2026.
+
+1. Get the general edition from the [official download page](https://desktopgadget.org/en/download/).
+2. Extract the ZIP and open its Setup. Check the version and destination, then install.
+3. Start the app and add a gadget. Review and allow any required connection or file access.
+4. Open Help in the app for the HTML manual, with instructions and pictures for the selected language.
+
+## Update
+
+You can check for updates manually. Startup checks are optional and off by default. Checking does not install an update automatically. Use the official Setup to update. Back up important data first.
+
+For a PC without a working connection, use another PC to download the application ZIP and the latest offline safety information. Transfer them by USB or another method, then select the safety JSON in Setup. It is valid for 30 days from issue. Get a fresh copy if it has expired. This expiry does not limit ordinary startup of installed local features.
+
+## Get help
+
+Report the error text, steps and app version on [Discord](https://discord.gg/9Pydmv4BKx), or use [email](mailto:desktopgadget.org@gmail.com) for private details. Do not send passwords or private keys. Diagnostic reports are not uploaded automatically.
+
+PC-to-PC connections and transfers are outside version 1.0.0. Public Marketplace and donation availability are announced separately on the official website.
+
+[Terms](usage-en.md) · [Data handling](data-handling-en.md) · [Contents](../../README.md)

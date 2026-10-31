@@ -1,0 +1,9 @@
+{
+  "formatVersion": 1,
+  "id": "example.hello",
+  "kind": "plugin",
+  "contractMajor": 1,
+  "displayName": "Hello sample",
+  "requiredCapabilities": [],
+  "optionalCapabilities": []
+}

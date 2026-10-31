@@ -1,0 +1,1 @@
+let count=0;document.querySelector('#increment').addEventListener('click',()=>document.querySelector('#count').textContent=String(++count));chrome.webview.addEventListener('message',event=>document.querySelector('#data').textContent=event.data);

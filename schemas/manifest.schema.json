@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DesktopGadget 1.0.0 CLI manifest (editor aid)",
+  "description": "Use CreatorCli validate as well: duplicate JSON properties and cross-list capability overlap require runtime validation. This is not a signed package manifest.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "formatVersion",
+    "id",
+    "kind",
+    "contractMajor",
+    "displayName",
+    "requiredCapabilities",
+    "optionalCapabilities"
+  ],
+  "properties": {
+    "formatVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9._:-]+$"
+    },
+    "kind": {
+      "enum": [
+        "plugin",
+        "provider",
+        "renderer"
+      ]
+    },
+    "contractMajor": {
+      "const": 1
+    },
+    "displayName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^(?=.*\\S)[^\\x00-\\x1F\\x7F-\\x9F]+$"
+    },
+    "requiredCapabilities": {
+      "type": "array",
+      "maxItems": 64,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 128,
+        "pattern": "^[A-Za-z0-9._:-]+$"
+      }
+    },
+    "optionalCapabilities": {
+      "type": "array",
+      "maxItems": 64,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 128,
+        "pattern": "^[A-Za-z0-9._:-]+$"
+      }
+    }
+  }
+}
