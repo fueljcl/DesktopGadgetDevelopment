@@ -6,48 +6,48 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "DesktopGadget.Product.CreatorCli/1.0.0": {
+      "DesktopGadget.Product.CreatorCli/1.1.0": {
         "dependencies": {
-          "DesktopGadget.Product.Contracts": "1.0.0",
-          "DesktopGadget.Product.Sdk": "1.0.0"
+          "DesktopGadget.Product.Contracts": "1.1.0",
+          "DesktopGadget.Product.Sdk": "1.1.0"
         },
         "runtime": {
           "DesktopGadget.Product.CreatorCli.dll": {}
         }
       },
-      "DesktopGadget.Product.Contracts/1.0.0": {
+      "DesktopGadget.Product.Contracts/1.1.0": {
         "runtime": {
           "DesktopGadget.Product.Contracts.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
           }
         }
       },
-      "DesktopGadget.Product.Sdk/1.0.0": {
+      "DesktopGadget.Product.Sdk/1.1.0": {
         "dependencies": {
-          "DesktopGadget.Product.Contracts": "1.0.0"
+          "DesktopGadget.Product.Contracts": "1.1.0"
         },
         "runtime": {
           "DesktopGadget.Product.Sdk.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
           }
         }
       }
     }
   },
   "libraries": {
-    "DesktopGadget.Product.CreatorCli/1.0.0": {
+    "DesktopGadget.Product.CreatorCli/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DesktopGadget.Product.Contracts/1.0.0": {
+    "DesktopGadget.Product.Contracts/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DesktopGadget.Product.Sdk/1.0.0": {
+    "DesktopGadget.Product.Sdk/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

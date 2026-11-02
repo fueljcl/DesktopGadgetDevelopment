@@ -1,6 +1,10 @@
-# DesktopGadget 1.0.0 — Docs and Creator Kit
+# DesktopGadget 1.1.0 — Docs and Creator Kit
 
-Ver.1.0.0の公開資料です。公式署名済みZIPと検証ファイルは公開リポジトリの downloads フォルダーで提供します。 / Public documentation for Ver.1.0.0. Officially signed ZIPs and verification files are available in the public repository’s downloads folder.
+[署名済みSDK ZIP / Signed SDK ZIP](downloads/DesktopGadget-1.1.0-CreatorKit-win-x64.zip) · [署名 / Signature](downloads/DesktopGadget-1.1.0-CreatorKit-win-x64.signature.json) · [SHA-256](downloads/DesktopGadget-1.1.0-CreatorKit-win-x64.zip.sha256) · [公開鍵 / Public key](downloads/official-release.pub)
+
+1.0用の配布ファイルも downloads に保持しています。 / The 1.0 downloads remain available in downloads.
+
+Ver.1.1.0の公開資料です。公式署名済みZIPと検証ファイルは公開リポジトリの downloads フォルダーで提供します。 / Public documentation for Ver.1.1.0. Officially signed ZIPs and verification files are available in the public repository’s downloads folder.
 
 DesktopGadgetを使う方と、追加作品を作る方のための資料です。
 This kit explains how to use DesktopGadget and create add-ons.
@@ -18,8 +22,8 @@ This kit explains how to use DesktopGadget and create add-ons.
 | 利用条件 / Terms | [利用案内](docs/ja/usage-ja.md) | [Use of the software](docs/en/usage-en.md) |
 | データの取扱い / Data handling | [説明](docs/ja/data-handling-ja.md) | [Explanation](docs/en/data-handling-en.md) |
 
-対象はWindows 11 x64用のVer.1.0.0です。作品のデータ形式は第1版です。
-The target is DesktopGadget 1.0.0 for Windows 11 x64, using version-1 add-on formats.
+対象はWindows 11 x64用のVer.1.1.0です。作品のデータ形式は第1版です。
+The target is DesktopGadget 1.1.0 for Windows 11 x64, using version-1 add-on formats.
 
 `tools/` は公式SDKと検査ツール、`samples/` は改造して使える例、`schemas/` は入力形式の補助説明です。
 The `tools/` directory holds the SDK and check tool; `samples/` holds editable examples; `schemas/` describes an input format.
@@ -30,14 +34,6 @@ The command-line tool needs the .NET 10 Runtime. External builds need a .NET SDK
 この一式には本体、管理ツール、秘密鍵、モデル、音声は含めません。利用条件は [LICENSE](LICENSE.md)、第三者表記は [NOTICE](NOTICE.md) を参照してください。
 The kit does not contain the application, admin tools, private keys, models or voices. See [LICENSE](LICENSE.md) and [NOTICE](NOTICE.md).
 
-SHA-256一覧は配布ZIP内の `file-manifest.json` にあります。公式の別添署名がZIP全体とこの一覧を保護します。署名ファイルと公開鍵も一緒に保管してください。
-The ZIP’s `file-manifest.json` lists SHA-256 hashes. The detached official signature protects the ZIP and inventory. Keep the signature file and public key with the ZIP.
+SHA-256一覧は `file-manifest.json` にあります。公式の別添署名がZIP全体とこの一覧を保護します。署名ファイルと公開鍵も一緒に保管してください。
+`file-manifest.json` lists SHA-256 hashes. The detached official signature protects the ZIP and inventory. Keep the signature file and public key with the ZIP.
 
-## ダウンロード / Download
-
-[Creator Kit 1.0.0 ZIP](downloads/DesktopGadget-1.0.0-CreatorKit-win-x64.zip) · [署名 / Signature](downloads/DesktopGadget-1.0.0-CreatorKit-win-x64.signature.json) · [公開鍵 / Public key](downloads/official-release.pub) · [検証スクリプト / Verification script](downloads/Verify-CreatorKit.ps1)
-
-SHA-256: `3271DD9DA82538D15017D8EF0DAB35510955800302B8052643820D017BDA4F6F`
-
-SDKのプログラムは10月29日の確認済み版と同一です。公開用の説明文を更新して再署名しました。本体は公式サイトから取得してください。
-The SDK binaries are unchanged from the verified October 29 build. Documentation was updated for publication and the kit was signed again. Download the application from the official website.
