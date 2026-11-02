@@ -23,6 +23,6 @@ PC-to-PC connections and transfers are outside version 1.1.0. The free Marketpla
 
 ## Changes in 1.1
 
-This release adds recovery from temporary cursor rendering failures, larger calendar dates and weekdays, per-event advance reminders, flashing and dimming, agenda creation from the context menu, and priority for today’s upcoming events. It also includes event history, appearance colors and improved USB SMART matching. Google Calendar/Gmail integration remains deferred.
+This release adds recovery from temporary cursor rendering failures, larger calendar dates and weekdays, per-event advance reminders, flashing and dimming, agenda creation from the context menu, and priority for today’s upcoming events. It also includes event history, appearance colors and improved USB SMART matching.
 
 Back up settings and agenda data before updating. The saved-data format is now 23. Returning to 1.0 requires a backup saved by 1.0.
