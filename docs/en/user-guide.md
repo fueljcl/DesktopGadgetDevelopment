@@ -1,6 +1,6 @@
 # Start and update
 
-For DesktopGadget Free 1.1.0, released on November 2, 2026.
+For DesktopGadget Free 1.2.0, released on November 4, 2026.
 
 1. Get the general edition from the [official download page](https://desktopgadget.org/en/download/).
 2. Extract the ZIP and open its Setup. Check the version and destination, then install.
@@ -17,12 +17,14 @@ For a PC without a working connection, use another PC to download the applicatio
 
 Report the error text, steps and app version on [Discord](https://discord.gg/9Pydmv4BKx), or use [email](mailto:desktopgadget.org@gmail.com) for private details. Do not send passwords or private keys. Diagnostic reports are not uploaded automatically.
 
-PC-to-PC connections and transfers are outside version 1.1.0. The free Marketplace is available. Open language-pack management, sign in with a free ID, then install one of the six language packs. Optional development support is accepted on the official donation page.
+The free Marketplace is available. Open Marketplace from Add-ons in Management. It reuses your connected account: select a work and press Install / update. First-time users need to register or connect an account. After adding a language pack, select the display language in settings, save and restart. Optional development support is accepted on the official donation page.
 
 [Terms](usage-en.md) · [Data handling](data-handling-en.md) · [Contents](../../README.md)
 
-## Changes in 1.1
+## Changes in 1.2
 
-This release adds recovery from temporary cursor rendering failures, larger calendar dates and weekdays, per-event advance reminders, flashing and dimming, agenda creation from the context menu, and priority for today’s upcoming events. It also includes event history, appearance colors and improved USB SMART matching.
+Management now has four task-based pages with fewer repeated confirmations. Account entitlements refresh at startup, after reconnection and periodically; Marketplace shares the same connection. Setup runs the selected operation directly and shows the item being deleted and progress when cleaning up old versions.
 
-Back up settings and agenda data before updating. The saved-data format is now 23. Returning to 1.0 requires a backup saved by 1.0.
+This release improves cursor recovery after UAC, weekend and holiday colors, notification retention and display limits (1–100 each), and gadget height. Startup verifies runtime files before loading .NET.
+
+Back up settings and agenda data before updating. Extract the complete official ZIP; do not mix partial files from different versions. If verification fails, extract the official ZIP to a new folder or use Setup repair. The saved-data format remains 23. Returning to 1.0 requires a backup saved by 1.0.

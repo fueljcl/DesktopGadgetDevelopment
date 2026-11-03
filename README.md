@@ -1,10 +1,6 @@
-# DesktopGadget 1.1.0 — Docs and Creator Kit
+# DesktopGadget 1.2.0 — Docs and Creator Kit
 
-[署名済みSDK ZIP / Signed SDK ZIP](downloads/DesktopGadget-1.1.0-CreatorKit-win-x64.zip) · [署名 / Signature](downloads/DesktopGadget-1.1.0-CreatorKit-win-x64.signature.json) · [SHA-256](downloads/DesktopGadget-1.1.0-CreatorKit-win-x64.zip.sha256) · [公開鍵 / Public key](downloads/official-release.pub)
-
-1.0用の配布ファイルも downloads に保持しています。 / The 1.0 downloads remain available in downloads.
-
-Ver.1.1.0の公開資料です。公式署名済みZIPと検証ファイルは公開リポジトリの downloads フォルダーで提供します。 / Public documentation for Ver.1.1.0. Officially signed ZIPs and verification files are available in the public repository’s downloads folder.
+Ver.1.2.0の公開資料です。公式署名済みZIPと検証ファイルは公開リポジトリの downloads フォルダーで提供します。 / Public documentation for Ver.1.2.0. Officially signed ZIPs and verification files are available in the public repository’s downloads folder.
 
 DesktopGadgetを使う方と、追加作品を作る方のための資料です。
 This kit explains how to use DesktopGadget and create add-ons.
@@ -22,8 +18,8 @@ This kit explains how to use DesktopGadget and create add-ons.
 | 利用条件 / Terms | [利用案内](docs/ja/usage-ja.md) | [Use of the software](docs/en/usage-en.md) |
 | データの取扱い / Data handling | [説明](docs/ja/data-handling-ja.md) | [Explanation](docs/en/data-handling-en.md) |
 
-対象はWindows 11 x64用のVer.1.1.0です。作品のデータ形式は第1版です。
-The target is DesktopGadget 1.1.0 for Windows 11 x64, using version-1 add-on formats.
+対象はWindows 11 x64用のVer.1.2.0です。作品のデータ形式は第1版です。
+The target is DesktopGadget 1.2.0 for Windows 11 x64, using version-1 add-on formats.
 
 `tools/` は公式SDKと検査ツール、`samples/` は改造して使える例、`schemas/` は入力形式の補助説明です。
 The `tools/` directory holds the SDK and check tool; `samples/` holds editable examples; `schemas/` describes an input format.
@@ -36,4 +32,3 @@ The kit does not contain the application, admin tools, private keys, models or v
 
 SHA-256一覧は `file-manifest.json` にあります。公式の別添署名がZIP全体とこの一覧を保護します。署名ファイルと公開鍵も一緒に保管してください。
 `file-manifest.json` lists SHA-256 hashes. The detached official signature protects the ZIP and inventory. Keep the signature file and public key with the ZIP.
-

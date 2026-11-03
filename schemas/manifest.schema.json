@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "DesktopGadget 1.1.0 CLI manifest (editor aid)",
+  "title": "DesktopGadget 1.2.0 CLI manifest (editor aid)",
   "description": "Use CreatorCli validate as well: duplicate JSON properties and cross-list capability overlap require runtime validation. This is not a signed package manifest.",
   "type": "object",
   "additionalProperties": false,
