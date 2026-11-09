@@ -6,7 +6,7 @@ Its official content signature checks the publisher and file integrity. It is no
 Obtain the ZIP, its `.signature.json` file and `official-release.pub`. Use PowerShell 7.4 or later and a copy of `Verify-CreatorKit.ps1` independently checked through a trusted official source. Do not simply trust and run a script extracted from an unverified ZIP.
 
 ```powershell
-pwsh -NoProfile -File ./Verify-CreatorKit.ps1 -Archive ./DesktopGadget-1.2.0-CreatorKit-win-x64.zip -Signature ./DesktopGadget-1.2.0-CreatorKit-win-x64.signature.json -PublicKey ./official-release.pub
+pwsh -NoProfile -File ./Verify-CreatorKit.ps1 -Archive ./DesktopGadget-1.3.4-CreatorKit-win-x64.zip -Signature ./DesktopGadget-1.3.4-CreatorKit-win-x64.signature.json -PublicKey ./official-release.pub
 ```
 
 Check for `status: PASS`, `officialSignatureVerified: true` and `allFileHashesVerified: true`. If verification fails, do not use the kit; obtain fresh official copies. Verification neither extracts the archive nor executes SDK code.

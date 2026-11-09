@@ -6,7 +6,7 @@
 ZIP、同名の `.signature.json`、`official-release.pub` をそろえます。確認にはPowerShell 7.4以降と、信頼できる公式配布元から別途確認した `Verify-CreatorKit.ps1` を使います。未確認のZIPから取り出したスクリプトを、そのまま信用して実行しないでください。
 
 ```powershell
-pwsh -NoProfile -File ./Verify-CreatorKit.ps1 -Archive ./DesktopGadget-1.2.0-CreatorKit-win-x64.zip -Signature ./DesktopGadget-1.2.0-CreatorKit-win-x64.signature.json -PublicKey ./official-release.pub
+pwsh -NoProfile -File ./Verify-CreatorKit.ps1 -Archive ./DesktopGadget-1.3.4-CreatorKit-win-x64.zip -Signature ./DesktopGadget-1.3.4-CreatorKit-win-x64.signature.json -PublicKey ./official-release.pub
 ```
 
 `status: PASS` と `officialSignatureVerified: true`、`allFileHashesVerified: true` を確認します。失敗したら使わず、正規のファイルを取得し直してください。確認だけではZIPを展開したりSDKを実行したりしません。

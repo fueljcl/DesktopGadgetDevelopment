@@ -1,0 +1,283 @@
+{
+  "schema": "desktopgadget.public-kit.inventory.v1",
+  "version": "1.3.4",
+  "published": false,
+  "signatureLocation": "detached",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "bytes": 2229,
+      "sha256": "4ACEFC71FE592AF6371476811F6990942ECCFD1BD2916BC6AC6BCEABEA38DA4A"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1292,
+      "sha256": "2A8CA03740B304D781F274A51C324AC1443EAC3CE7214CF203BB3DA1E542CD7A"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3722,
+      "sha256": "ECED23452287778C268214F5693B41031143447B069299D822969513AB0E515D"
+    },
+    {
+      "path": "Verify-CreatorKit.ps1",
+      "bytes": 5685,
+      "sha256": "776AC514CE6331155CA4F43186C1E52060C5880E013DD9CAAFD4D45D90D1BBC3"
+    },
+    {
+      "path": "docs/en/cli.md",
+      "bytes": 2275,
+      "sha256": "5267CFF7339CC7B9E03C2EC7ACEAC99852F7B4F568AB3F0C580A253CE8F7FE34"
+    },
+    {
+      "path": "docs/en/data-handling-en.md",
+      "bytes": 3869,
+      "sha256": "40F95506F7BFDDC0EF09CEABD637A1BE304C2FBAF1474C388DD9F827B0C99489"
+    },
+    {
+      "path": "docs/en/getting-started.md",
+      "bytes": 1487,
+      "sha256": "80FC12F8C6AAF479C04A14792BFFE9879D3CF3091E1D357C4F456BF1E154B941"
+    },
+    {
+      "path": "docs/en/reference.md",
+      "bytes": 3905,
+      "sha256": "2477D94CA46E099F871BB87A42EA18839B2C15A795D45DF25025FB042061D10C"
+    },
+    {
+      "path": "docs/en/usage-en.md",
+      "bytes": 2785,
+      "sha256": "96B9A79334EA0312D14DC31082230B1C0871443566BAEF90351AF3FB1BE59EA1"
+    },
+    {
+      "path": "docs/en/user-guide.md",
+      "bytes": 4303,
+      "sha256": "5C1F7511DE895698C9D8AEDCFABDC035C5D8F7B43EEF79EC5C3A89E0048B4A56"
+    },
+    {
+      "path": "docs/en/verify.md",
+      "bytes": 1250,
+      "sha256": "E6891D660FB6ADD5D0C4702508E88E1658CE880F117E61324948C90895F906C8"
+    },
+    {
+      "path": "docs/ja/cli.md",
+      "bytes": 2539,
+      "sha256": "1FC25BC26496B72D0046E384716546BB9DC383107DA7C40A651B57F89F1FDB18"
+    },
+    {
+      "path": "docs/ja/data-handling-ja.md",
+      "bytes": 4442,
+      "sha256": "9C99BA2297B47D2749BF449E7595A7EBF88615EEA729D2D629D664C9CBB88E7D"
+    },
+    {
+      "path": "docs/ja/getting-started.md",
+      "bytes": 1946,
+      "sha256": "861C2116883F8E4643312A56586C58F5C2BCB27D229F7EC6C9B16939E1805919"
+    },
+    {
+      "path": "docs/ja/reference.md",
+      "bytes": 4595,
+      "sha256": "B93C6DFAA3A522BEE1A4BABA44E4F2FA012A55989F668398B16F2A516BE3FC34"
+    },
+    {
+      "path": "docs/ja/usage-ja.md",
+      "bytes": 3174,
+      "sha256": "4FEE6511170806E64229B743207FCCFB2BED2F69CA2990CEACE153D923D1883C"
+    },
+    {
+      "path": "docs/ja/user-guide.md",
+      "bytes": 5370,
+      "sha256": "CF7228BFED08E351CAD93864B1AFB560D16D5029B44ED4BC2C21672093CB3810"
+    },
+    {
+      "path": "docs/ja/verify.md",
+      "bytes": 1457,
+      "sha256": "5D1BB5C942344D0FAC3EBDBB987F9873E2FD79F6F8DC9E7BCBD0533E3075A5FA"
+    },
+    {
+      "path": "samples/README.md",
+      "bytes": 1101,
+      "sha256": "1F3D177367BB0AD981E132A09A6F3DEC83F950E5F36D63B8ECC22F16E21B4290"
+    },
+    {
+      "path": "samples/bundled/BundledPlugin.cs",
+      "bytes": 211,
+      "sha256": "79A19C77D6974B3ABFB5F0BB3BAF397190D99E79713888409048FE8ABDBA01CB"
+    },
+    {
+      "path": "samples/bundled/LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "57EC64E7FF47F8ECEEB51CEB1A52DF3ABBCE4B278021787760A98BE53597BC8B"
+    },
+    {
+      "path": "samples/bundled/README.md",
+      "bytes": 669,
+      "sha256": "0584FC47C2AC567F1562F35F799172F847EDA297B9763E7A2E326FC208713EFD"
+    },
+    {
+      "path": "samples/bundled/message.txt",
+      "bytes": 41,
+      "sha256": "BF24C4D654E26929CC9856910284E0CD2661BD91E4D29FB115F2CAD42DB46DC7"
+    },
+    {
+      "path": "samples/csv-table/LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "57EC64E7FF47F8ECEEB51CEB1A52DF3ABBCE4B278021787760A98BE53597BC8B"
+    },
+    {
+      "path": "samples/csv-table/README.md",
+      "bytes": 1524,
+      "sha256": "4F962491A5AA344469FE952E32214B3A46EE6EB38CC888A54B179759B538A9A2"
+    },
+    {
+      "path": "samples/csv-table/csv_to_board.py",
+      "bytes": 2274,
+      "sha256": "1339823B051402DE19C6A27209AFBC11C1FEC13D4242878948269526F9F7A822"
+    },
+    {
+      "path": "samples/csv-table/example.csv",
+      "bytes": 58,
+      "sha256": "41A1753947D6C823FE3907B86876B47F0E33BC4FFF966CB237B3A0B4CBA6AB03"
+    },
+    {
+      "path": "samples/csv-table/test_csv_to_board.py",
+      "bytes": 1530,
+      "sha256": "1051F867AB8E8AF84BCDA303015AB640CB85D7719604F767EAF9DFC99B4864A0"
+    },
+    {
+      "path": "samples/hello/HelloPlugin.cs",
+      "bytes": 121,
+      "sha256": "27EB58E4C09FC3EF58B2E4B34DE411C0E640EF6709E4FBB77460ACD2921AFC26"
+    },
+    {
+      "path": "samples/hello/LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "57EC64E7FF47F8ECEEB51CEB1A52DF3ABBCE4B278021787760A98BE53597BC8B"
+    },
+    {
+      "path": "samples/hello/README.md",
+      "bytes": 466,
+      "sha256": "547191FD84AC57356FEBCB1C8231DF41D0566CA66421F81B1E3E0370EE035406"
+    },
+    {
+      "path": "samples/html/HtmlRenderer.cs",
+      "bytes": 243,
+      "sha256": "0857715756B19DB577BEF4BF29103170951B961FBE7DA69C2053BE7FEAB21952"
+    },
+    {
+      "path": "samples/html/LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "57EC64E7FF47F8ECEEB51CEB1A52DF3ABBCE4B278021787760A98BE53597BC8B"
+    },
+    {
+      "path": "samples/html/README.md",
+      "bytes": 972,
+      "sha256": "66699EFBA95344D9E7923D0284A583ED5A81B886F697D0AA8E2222D86BE10A1A"
+    },
+    {
+      "path": "samples/html/display.js",
+      "bytes": 245,
+      "sha256": "CE7C9E89A00D071A7A72BB12A74660E805CDB67DA611990128EC0760ACD41DBF"
+    },
+    {
+      "path": "samples/html/index.html",
+      "bytes": 435,
+      "sha256": "A0AB4B7C8493301ED426679DB41927A1EC873B86DB8412ABF00714A8299B268E"
+    },
+    {
+      "path": "samples/provider-renderer/DemoProvider.cs",
+      "bytes": 511,
+      "sha256": "25BD2E22E9964392D7BAEFF02614FA3FF508EEED59B68EE76CC966D53892DD57"
+    },
+    {
+      "path": "samples/provider-renderer/DesktopGadget.SampleMultiSource.csproj",
+      "bytes": 590,
+      "sha256": "6A33F04E3B999BC26A0E2AF6BCECF50BAFD4CFD6E58F31D592951EDE67EB5B0B"
+    },
+    {
+      "path": "samples/provider-renderer/LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "57EC64E7FF47F8ECEEB51CEB1A52DF3ABBCE4B278021787760A98BE53597BC8B"
+    },
+    {
+      "path": "samples/provider-renderer/MetricRenderer.cs",
+      "bytes": 1881,
+      "sha256": "A3E51706A5852C4C4417661DCC7309109505A2D787DF90322D495846C74DEFC5"
+    },
+    {
+      "path": "samples/provider-renderer/NuGet.Config",
+      "bytes": 219,
+      "sha256": "A0F1798528A62069CCFAD790E19BBD1EDFF1C275EAF97968AF41777F5CD4084B"
+    },
+    {
+      "path": "samples/provider-renderer/README.md",
+      "bytes": 1329,
+      "sha256": "BBAD8A13CCB53D75D2A7697B98B0E7BDDEC6FC38420B7BA067550BA2550BE05A"
+    },
+    {
+      "path": "samples/provider-renderer/SampleValues.cs",
+      "bytes": 569,
+      "sha256": "06DF005FC948BAC012520087BCC71B980166B5114E8EB05577A9F57EFB5C1433"
+    },
+    {
+      "path": "samples/provider-renderer/global.json",
+      "bytes": 95,
+      "sha256": "58F5E48B4082EFD2F20AF8D9100355544616E237D13611077911601D4D8C5F77"
+    },
+    {
+      "path": "samples/resources/LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "57EC64E7FF47F8ECEEB51CEB1A52DF3ABBCE4B278021787760A98BE53597BC8B"
+    },
+    {
+      "path": "samples/resources/README.md",
+      "bytes": 1020,
+      "sha256": "1F89D724D50C865A2E0955CA920805DF876408737DF311F31E1DCFF036375D42"
+    },
+    {
+      "path": "samples/resources/ResourcePlugin.cs",
+      "bytes": 350,
+      "sha256": "E55E9A3765D354405DDBE95CA7F59DA230325A780160D7374B0A960F9ACBD017"
+    },
+    {
+      "path": "schemas/example.manifest.json",
+      "bytes": 185,
+      "sha256": "CEE52DA1CB23B8819971D5614DDE20F5C1BA508B8317618ED76B2337B206B99D"
+    },
+    {
+      "path": "schemas/manifest.schema.json",
+      "bytes": 1516,
+      "sha256": "F9E1D15DE60F196D85590DB15B8F88FCE84FA75AEB847619CD3DC78D5337DB63"
+    },
+    {
+      "path": "tools/DesktopGadget.Product.Contracts.dll",
+      "bytes": 59392,
+      "sha256": "FC2AAE67FA9408AC95D55C3AFF93BD61EE238BA9EF554348B8A7511334E5FFDF"
+    },
+    {
+      "path": "tools/DesktopGadget.Product.CreatorCli.deps.json",
+      "bytes": 1447,
+      "sha256": "2BE2CBF8D30E5060589A910CF5DD2675AFC17DBDA29A6B6FB262CD9932F2C49A"
+    },
+    {
+      "path": "tools/DesktopGadget.Product.CreatorCli.dll",
+      "bytes": 7680,
+      "sha256": "C30B01CB32B90803C9EB4AC51BCFADFFFBABEC1A7327BC2D00A1353B0D6593A2"
+    },
+    {
+      "path": "tools/DesktopGadget.Product.CreatorCli.exe",
+      "bytes": 162816,
+      "sha256": "40DB9F7EA6428E24E819FDD8DC42B633B0AA6ED2A139D4A1A97444AC7F5F2FB9"
+    },
+    {
+      "path": "tools/DesktopGadget.Product.CreatorCli.runtimeconfig.json",
+      "bytes": 342,
+      "sha256": "C230A317A54DD960BCBEB5F347F52E18DC665A26F7EFDA2159FCED9A5AC7E097"
+    },
+    {
+      "path": "tools/DesktopGadget.Product.Sdk.dll",
+      "bytes": 108544,
+      "sha256": "931A0E6616523DF999795A32229496EF455B05FF090ED00F0685B9329CCCAA02"
+    }
+  ]
+}
