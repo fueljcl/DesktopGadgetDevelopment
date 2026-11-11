@@ -1,13 +1,13 @@
 {
   "schema": "desktopgadget.public-kit.inventory.v1",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "published": false,
   "signatureLocation": "detached",
   "files": [
     {
       "path": "LICENSE.md",
       "bytes": 2229,
-      "sha256": "4ACEFC71FE592AF6371476811F6990942ECCFD1BD2916BC6AC6BCEABEA38DA4A"
+      "sha256": "1D4265E5985580D44904C3E5FD7099A9C0C4EFC727D46677B1E490B6F8E24CD0"
     },
     {
       "path": "NOTICE.md",
@@ -17,7 +17,7 @@
     {
       "path": "README.md",
       "bytes": 3722,
-      "sha256": "ECED23452287778C268214F5693B41031143447B069299D822969513AB0E515D"
+      "sha256": "7094F4B94A6D7247D5A229C3B464C965E3B080F7B81A54FE11E7D3E37D8D6B49"
     },
     {
       "path": "Verify-CreatorKit.ps1",
@@ -42,7 +42,7 @@
     {
       "path": "docs/en/reference.md",
       "bytes": 3905,
-      "sha256": "2477D94CA46E099F871BB87A42EA18839B2C15A795D45DF25025FB042061D10C"
+      "sha256": "88E7A0ED366C4A62B8DFEB7B815BEA995B7934615C8C6BE23864E96B13254ECD"
     },
     {
       "path": "docs/en/usage-en.md",
@@ -51,13 +51,13 @@
     },
     {
       "path": "docs/en/user-guide.md",
-      "bytes": 4303,
-      "sha256": "5C1F7511DE895698C9D8AEDCFABDC035C5D8F7B43EEF79EC5C3A89E0048B4A56"
+      "bytes": 5159,
+      "sha256": "D9ED4D2DA93B1749E086073DF74CEBDED958A28A9C9C6E726A437AEC2FAC324A"
     },
     {
       "path": "docs/en/verify.md",
       "bytes": 1250,
-      "sha256": "E6891D660FB6ADD5D0C4702508E88E1658CE880F117E61324948C90895F906C8"
+      "sha256": "BE96C3186C2ADC9F8CB1321CBE3210AD6ED73C3641DCC702E65555B212ECBF1E"
     },
     {
       "path": "docs/ja/cli.md",
@@ -77,7 +77,7 @@
     {
       "path": "docs/ja/reference.md",
       "bytes": 4595,
-      "sha256": "B93C6DFAA3A522BEE1A4BABA44E4F2FA012A55989F668398B16F2A516BE3FC34"
+      "sha256": "587EBCA70849DE994235A1F7EC704675035216CE3C37DB0F87CA04415C14EBDC"
     },
     {
       "path": "docs/ja/usage-ja.md",
@@ -86,13 +86,13 @@
     },
     {
       "path": "docs/ja/user-guide.md",
-      "bytes": 5370,
-      "sha256": "CF7228BFED08E351CAD93864B1AFB560D16D5029B44ED4BC2C21672093CB3810"
+      "bytes": 6428,
+      "sha256": "B18D0B03FAD2E5C20F6B071CDDE033AFA5485D098436B4146DAE8B1C15E05E91"
     },
     {
       "path": "docs/ja/verify.md",
       "bytes": 1457,
-      "sha256": "5D1BB5C942344D0FAC3EBDBB987F9873E2FD79F6F8DC9E7BCBD0533E3075A5FA"
+      "sha256": "188BF99DF99600E8FCB16818D1FF19C78FB24BA129E7EFF303F22DFE0F15F233"
     },
     {
       "path": "samples/README.md",
@@ -247,7 +247,7 @@
     {
       "path": "schemas/manifest.schema.json",
       "bytes": 1516,
-      "sha256": "F9E1D15DE60F196D85590DB15B8F88FCE84FA75AEB847619CD3DC78D5337DB63"
+      "sha256": "1FD7FEE4177BB9DE8C6657F577F29C2D7EBAD5087D722D0F9B47EB75B0095863"
     },
     {
       "path": "tools/DesktopGadget.Product.Contracts.dll",

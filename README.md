@@ -1,6 +1,6 @@
-# DesktopGadget 1.3.4 — Docs and Creator Kit
+# DesktopGadget 1.3.5 — Docs and Creator Kit
 
-Ver.1.3.4の公開資料です。公式署名済みZIPと検証ファイルは公開リポジトリの downloads フォルダーで提供します。 / Public documentation for Ver.1.3.4. Officially signed ZIPs and verification files are available in the public repository’s downloads folder.
+Ver.1.3.5の公開資料です。公式署名済みZIPと検証ファイルは公開リポジトリの downloads フォルダーで提供します。 / Public documentation for Ver.1.3.5. Officially signed ZIPs and verification files are available in the public repository’s downloads folder.
 
 DesktopGadgetを使う方と、追加作品を作る方のための資料です。
 This kit explains how to use DesktopGadget and create add-ons.
@@ -18,8 +18,8 @@ This kit explains how to use DesktopGadget and create add-ons.
 | 利用条件 / Terms | [利用案内](docs/ja/usage-ja.md) | [Use of the software](docs/en/usage-en.md) |
 | データの取扱い / Data handling | [説明](docs/ja/data-handling-ja.md) | [Explanation](docs/en/data-handling-en.md) |
 
-対象はWindows 11 x64用のVer.1.3.4です。作品のデータ形式は第1版です。
-The target is DesktopGadget 1.3.4 for Windows 11 x64, using version-1 add-on formats.
+対象はWindows 11 x64用のVer.1.3.5です。作品のデータ形式は第1版です。
+The target is DesktopGadget 1.3.5 for Windows 11 x64, using version-1 add-on formats.
 
 `tools/` は公式SDKと検査ツール、`samples/` は改造して使える例、`schemas/` は入力形式の補助説明です。
 The `tools/` directory holds the SDK and check tool; `samples/` holds editable examples; `schemas/` describes an input format.
@@ -33,5 +33,5 @@ The kit does not contain the application, admin tools, private keys, models or v
 SHA-256一覧は `file-manifest.json` にあります。公式の別添署名がZIP全体とこの一覧を保護します。署名ファイルと公開鍵も一緒に保管してください。
 `file-manifest.json` lists SHA-256 hashes. The detached official signature protects the ZIP and inventory. Keep the signature file and public key with the ZIP.
 
-今回の資料更新ではSDKの6ファイルを既存の1.2.0公開キットからそのまま保持しています。1.3.4の利用案内に合わせた文書と署名の更新です。
-This documentation update retains all six SDK files from the published 1.2.0 kit unchanged. The guides and signed kit are updated for the 1.3.4 application release.
+今回の資料更新ではSDKの6ファイルを既存の1.2.0公開キットからそのまま保持しています。1.3.5の利用案内に合わせた文書と署名の更新です。
+This documentation update retains all six SDK files from the published 1.2.0 kit unchanged. The guides and signed kit are updated for the 1.3.5 application release.

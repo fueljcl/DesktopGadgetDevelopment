@@ -1,7 +1,7 @@
 # ファイルごとの利用条件 / Terms by file
 
-Ver.1.3.4の公開ファイルに適用する利用条件です。
-Terms applying to the published Ver.1.3.4 files.
+Ver.1.3.5の公開ファイルに適用する利用条件です。
+Terms applying to the published Ver.1.3.5 files.
 
 | 対象 / Files | 条件 / Terms |
 |---|---|

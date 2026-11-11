@@ -1,6 +1,6 @@
 # Start and update
 
-For DesktopGadget Free 1.3.4, released on November 9, 2026.
+For DesktopGadget Free 1.3.5, released on November 9, 2026.
 
 1. Get the general edition from the [official download page](https://desktopgadget.org/en/download/).
 2. Extract the ZIP and open its Setup. Check the version and destination, then install.
@@ -20,6 +20,12 @@ Report the error text, steps and app version on [Discord](https://discord.gg/9Py
 The free Marketplace is available. Open Marketplace from Add-ons in Management. It reuses your connected account: select a work and press Install / update. First-time users need to register or connect an account. After adding a language pack, select the display language in settings, save and restart. Optional development support is accepted on the official donation page.
 
 [Terms](usage-en.md) · [Data handling](data-handling-en.md) · [Contents](../../README.md)
+
+## Improvements in 1.3.5
+
+Show content only is now available for every gadget. Fixed borders and handles remaining in daily and weekly agendas depending on the order of settings. Added Transparent / Black text and Transparent / White text, bringing the total to six presets. Transparent themes keep Management in its default colors while blending gadgets into your wallpaper. Individual color and opacity settings take priority, and the last theme change can be undone.
+
+Choose Show content only in Appearance or the context menu. This is independent of the transparent theme. Reset individual appearance overrides to let a customized gadget inherit the theme. Management keeps its default colors. Explicit F3, background-menu and opacity-slider changes take priority. Images and external HTML contents are not rewritten.
 
 ## Improvements in 1.3.4
 
@@ -41,4 +47,4 @@ Management now has four task-based pages with fewer repeated confirmations. Acco
 
 This release improves cursor recovery after UAC, weekend and holiday colors, notification retention and display limits (1–100 each), and gadget height. Startup verifies runtime files before loading .NET.
 
-Back up settings and agenda data before updating. Extract the complete official ZIP; do not mix partial files from different versions. If verification fails, extract the official ZIP to a new folder or use Setup repair. The current settings format is 25, unchanged from 1.3.3. Returning to 1.3.2 or earlier also requires restoring a compatible settings backup.
+Back up settings and agenda data before updating. Extract the complete official ZIP; do not mix partial files from different versions. If verification fails, extract the official ZIP to a new folder or use Setup repair. The settings format is 26. Back up the entire data folder before updating. Returning to 1.3.4 or earlier also requires restoring the settings backup made before this update.
