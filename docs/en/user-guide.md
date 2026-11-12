@@ -1,6 +1,6 @@
 # Start and update
 
-For DesktopGadget Free 1.3.5, released on November 9, 2026.
+For DesktopGadget Free 1.4.0, released on November 12, 2026.
 
 1. Get the general edition from the [official download page](https://desktopgadget.org/en/download/).
 2. Extract the ZIP and open its Setup. Check the version and destination, then install.
@@ -9,7 +9,7 @@ For DesktopGadget Free 1.3.5, released on November 9, 2026.
 
 ## Update
 
-You can check for updates manually. Startup checks are optional and off by default. Checking does not install an update automatically. Use the official Setup to update. Back up important data first.
+You can check for updates manually. Enable update notices at the top of App settings to check at startup and hourly (off by default). Each release is announced only on first detection and recorded in the current session’s notification history and event timeline. Restarting does not repeat the announcement; the manager retains its update banner. Checking does not install an update automatically. Use the official Setup to update. Back up important data first.
 
 For a PC without a working connection, use another PC to download the application ZIP and the latest offline safety information. Transfer them by USB or another method, then select the safety JSON in Setup. It is valid for 30 days from issue. Get a fresh copy if it has expired. This expiry does not limit ordinary startup of installed local features.
 
@@ -21,6 +21,12 @@ The free Marketplace is available. Open Marketplace from Add-ons in Management. 
 
 [Terms](usage-en.md) · [Data handling](data-handling-en.md) · [Contents](../../README.md)
 
+## Improvements in 1.4.0
+
+Added Fortune Advice. Enter your birth date at first setup and select Today only, Next 7 Days only (today plus six days), This Month only, or All periods (default). The context menu changes the period and content-only display. Results are stable for the same version, birth date and day. Local numerology-inspired calculations and original text are for entertainment; your birth date is not transmitted.
+
+Windows shutdown saves only pending changes and no longer writes additional shutdown diagnostic files. Multiple displays no longer take initial focus on startup. If the previous normal exit cannot be confirmed, recovery guidance appears in Management without a blocking startup dialog. Protection for incomplete shutdown or failed saves remains.
+
 ## Improvements in 1.3.5
 
 Show content only is now available for every gadget. Fixed borders and handles remaining in daily and weekly agendas depending on the order of settings. Added Transparent / Black text and Transparent / White text, bringing the total to six presets. Transparent themes keep Management in its default colors while blending gadgets into your wallpaper. Individual color and opacity settings take priority, and the last theme change can be undone.
@@ -29,7 +35,7 @@ Choose Show content only in Appearance or the context menu. This is independent 
 
 ## Improvements in 1.3.4
 
-Fixed a recovery-warning case where saving and shutdown had completed but exceeded the waiting budget. Protection for failed saves or incomplete shutdown remains, with local shutdown diagnostics for other cases. Light-theme inputs, status labels and selected rows are easier to read.
+Fixed a recovery-warning case where saving and shutdown had completed but exceeded the waiting budget. Protection for failed saves or incomplete shutdown remains, with local shutdown diagnostics added at the time (1.4.0 reduces additional shutdown writes). Light-theme inputs, status labels and selected rows are easier to read.
 
 Calendar, daily agenda and weekly agenda gadgets now include an Import button. Use Import in the context menu in display-only mode, or Management when click-through is enabled. Import and Export on the right of the selected gadget in Management remain available.
 
@@ -47,4 +53,4 @@ Management now has four task-based pages with fewer repeated confirmations. Acco
 
 This release improves cursor recovery after UAC, weekend and holiday colors, notification retention and display limits (1–100 each), and gadget height. Startup verifies runtime files before loading .NET.
 
-Back up settings and agenda data before updating. Extract the complete official ZIP; do not mix partial files from different versions. If verification fails, extract the official ZIP to a new folder or use Setup repair. The settings format is 26. Back up the entire data folder before updating. Returning to 1.3.4 or earlier also requires restoring the settings backup made before this update.
+Back up settings and agenda data before updating. Extract the complete official ZIP; do not mix partial files from different versions. If verification fails, extract the official ZIP to a new folder or use Setup repair. The settings format is 27. Back up the entire data folder before updating. Returning to 1.3.5 or earlier also requires restoring the settings backup made before this update.

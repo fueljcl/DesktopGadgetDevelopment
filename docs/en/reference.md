@@ -1,6 +1,6 @@
 # Short add-on reference
 
-For version 1.3.5. This describes the formats used by the included examples, not promised future features.
+For version 1.4.0. This describes the formats used by the included examples, not promised future features.
 
 ## Entry and kinds
 
